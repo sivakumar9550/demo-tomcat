@@ -1,7 +1,6 @@
 pipeline{
-    agent {
-        label 'linuxagent'
-    }
+    agent any 
+    stages{
     tools{
         maven 'maven-3'
     }
